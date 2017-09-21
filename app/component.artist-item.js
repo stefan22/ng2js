@@ -1,0 +1,1 @@
+//# sourceMappingURL=component.artist-item.js.map

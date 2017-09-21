@@ -1,19 +1,21 @@
 /**
- * System configuration for Angular 2 samples
- * Adjust as necessary for your application needs.
+ *  angular 2
+ *  this file sets how the modules are going to be process
  */
 (function (global) {
 
-  // map tells the System loader where to look for things
+  // map tells Systemloader where to look for things - app folder
   var map = {
     'app': 'app', // 'dist',
 
+     //where to find angular node-modules
     '@angular': 'node_modules/@angular',
     'rxjs': 'node_modules/rxjs'
   };
 
-  // packages tells the System loader how to load when no filename and/or no extension
+  // packages tells System loader how to load when no filename and/or no extension
   var packages = {
+    //specify where the original file that this module loader is going to load first
     'app': { main: 'app.boot.js', defaultExtension: 'js' },
     'rxjs': { defaultExtension: 'js' }
   };
