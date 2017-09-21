@@ -1,6 +1,12 @@
+/*
+* determines how typescript is going to be converted into regular javascript
+* targets es5
+* system is the module handler
+*/
+
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "es5",
     "module": "system",
     "moduleResolution": "node",
     "sourceMap": true,
