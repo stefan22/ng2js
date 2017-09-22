@@ -10,7 +10,7 @@ import { BrowserModule } from '@angular/platform-browser';
 //starting module created
 import { AppComponent } from './component.app';
 
-//creating ngModuleDecorator - functions
+//creating ngModuleDecorator - functions the modify js classes
 @NgModule({
    import: [
       BrowserModule
@@ -24,7 +24,7 @@ import { AppComponent } from './component.app';
       AppComponent
    ]
 
-});      //supposedly no semi-colon here
+})      //supposedly no semi-colon here
 
 //export as a class Module
 export class AppModule {}

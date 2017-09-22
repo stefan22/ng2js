@@ -9,3 +9,4 @@ import { AppModule } from './app.modules';
 
 //bootstrap application with platformBrowserDynamic method
 platformBrowserDynamic().bootstrapModule(AppModule);
+

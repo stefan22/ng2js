@@ -21,9 +21,13 @@ npm start - to run server
 
 
 ### notes
-concurrently - runs both - processes typescript and runs lite-server with npm script
+- concurrently - runs both - processes typescript and runs lite-server with npm script
+- difference btw the import command and the declarations is that the import imports modules
+  that we're going to need, while declarations are going to allow us to import all of the
+  modules that we have within our application
 
 ### tsconfing.json
 - determines how typescript is going to be converted into regular javascript
 - targeting es5 (what most browsers support)
 - systemjs as module handler
+
