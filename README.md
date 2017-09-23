@@ -34,6 +34,6 @@ npm start - to run server
 
 ### tsconfing.json
 - determines how typescript is going to be converted into regular javascript
-- targeting es5 (what most browsers support)
+- targeting es5 (what most browsers support) . **note** es5 was causing the problem -es6 now.
 - systemjs as module handler
 
