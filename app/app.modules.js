@@ -28,25 +28,22 @@ System.register(['@angular/core', '@angular/platform-browser', './component.app'
             }],
         execute: function() {
             //creating ngModuleDecorator - functions the modify js classes
-            AppModule = (function () {
-                function AppModule() {
-                }
-                AppModule = __decorate([
-                    core_1.NgModule({
-                        import: [
-                            platform_browser_1.BrowserModule
-                        ],
-                        declarations: [
-                            component_app_1.AppComponent
-                        ],
-                        bootstrap: [
-                            component_app_1.AppComponent
-                        ]
-                    }), 
-                    __metadata('design:paramtypes', [])
-                ], AppModule);
-                return AppModule;
-            }());
+            AppModule = class AppModule {
+            };
+            AppModule = __decorate([
+                core_1.NgModule({
+                    imports: [
+                        platform_browser_1.BrowserModule
+                    ],
+                    declarations: [
+                        component_app_1.AppComponent
+                    ],
+                    bootstrap: [
+                        component_app_1.AppComponent
+                    ]
+                }), 
+                __metadata('design:paramtypes', [])
+            ], AppModule);
             exports_1("AppModule", AppModule);
         }
     }

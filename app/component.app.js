@@ -19,19 +19,16 @@ System.register(['@angular/core'], function(exports_1, context_1) {
             }],
         execute: function() {
             //setup for this particular component
-            AppComponent = (function () {
-                function AppComponent() {
-                }
-                AppComponent = __decorate([
-                    core_1.Component({
-                        //app tag
-                        selector: 'app',
-                        template: '<h1>Artist Directory'
-                    }), 
-                    __metadata('design:paramtypes', [])
-                ], AppComponent);
-                return AppComponent;
-            }());
+            AppComponent = class AppComponent {
+            };
+            AppComponent = __decorate([
+                core_1.Component({
+                    //app tag
+                    selector: 'app',
+                    template: '<h1>Artist Directory</h1>'
+                }), 
+                __metadata('design:paramtypes', [])
+            ], AppComponent);
             exports_1("AppComponent", AppComponent);
         }
     }

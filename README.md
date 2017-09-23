@@ -15,6 +15,12 @@
 - nodejs tooling (NPM scripts)
 - local server & reload
 
+### typical application
+Needs 3 different files:
+   + a file to bootstrap application
+   + a file to describe all the modules
+   + a module file to start up
+
 
 ## commands
 npm start - to run server
