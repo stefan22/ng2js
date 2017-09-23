@@ -4,7 +4,7 @@
 
 
 <hr>
-> ***initialApp*** branch:
+>  <kbd>initialApp</kbd> branch:
 > saved as ref starting point
 <hr>
 
