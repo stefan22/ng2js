@@ -1,4 +1,7 @@
 # ng2js
+
+# initialApp / . ref starting point template
+
 > lots of changes
 > no more ng-directive, instead 'invent your own tags and write a function for it'
 
