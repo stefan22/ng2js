@@ -2,6 +2,13 @@
 > lots of changes
 > no more ng-directive, instead 'invent your own tags and write a function for it'
 
+
+<hr>
+> initialApp branch:
+> saved as ref starting point
+<hr>
+
+
 - more focus on components
 - no more controllers
 - no more scope
