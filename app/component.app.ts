@@ -5,14 +5,17 @@ import { Component } from '@angular/core';
 @Component({
    //app tag
    selector: 'app',
-   template: `
-              <div class="card search"> 
-              <h1 class="search-headline">Artist Directory</h1>
-              <label class="search-label">search</label>
-              </div><!-- card search -->
-             `  
+   templateUrl: './partials/app.html' 
 
 
 })
 
-export class AppComponent {}
+export class AppComponent {
+   name: string;
+
+   constructor() {
+      this.name = "johny doe";
+   }
+
+
+}

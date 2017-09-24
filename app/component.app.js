@@ -20,17 +20,15 @@ System.register(['@angular/core'], function(exports_1, context_1) {
         execute: function() {
             //setup for this particular component
             AppComponent = class AppComponent {
+                constructor() {
+                    this.name = "johny doe";
+                }
             };
             AppComponent = __decorate([
                 core_1.Component({
                     //app tag
                     selector: 'app',
-                    template: `
-              <div class="card search"> 
-              <h1 class="search-headline">Artist Directory</h1>
-              <label class="search-label">search</label>
-              </div><!-- card search -->
-             `
+                    templateUrl: './partials/app.html'
                 }), 
                 __metadata('design:paramtypes', [])
             ], AppComponent);
