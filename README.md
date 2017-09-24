@@ -37,3 +37,18 @@ npm start - to run server
 - targeting es5 (what most browsers support)
 - systemjs as module handler
 
+
+
+### es6 i like  &nbsp; :fire: :punch:
+
+ - backticks   
+```
+   ///lets u put things in multiple lines
+               `
+                  <p>i dont care about
+                  leaving blank space
+                  no more
+                  </p>
+
+               `
+```
