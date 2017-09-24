@@ -1,4 +1,4 @@
-# ng2js
+# ng2js . &nbsp; :rocket:
 > lots of changes
 > no more ng-directive, instead 'invent your own tags and write a function for it'
 
@@ -44,3 +44,29 @@ npm start - to run server
 - targeting es5 (what most browsers support) . **note** es5 was causing the problem -es6 now.
 - systemjs as module handler
 
+### exclude patters - sublime
+
+```
+      "file_exclude_patterns":
+	[
+		"*.js",
+		"*.js.map",
+		"*.DS_Store"
+	],
+
+	"folder_exclude_patterns":
+	[
+		"app/**/*.js",
+		".git",
+		"app/**/*.js.map",
+		".js"
+	],
+	
+	"ignored_packages":
+	[
+		"Vintage"
+	]
+
+```
+
+:100:
