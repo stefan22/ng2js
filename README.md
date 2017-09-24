@@ -45,12 +45,12 @@ npm start - to run server
 - systemjs as module handler
 
 
-### es6 i like  &nbsp; :fire: :punch:
+### es6 i like  &nbsp; :fire:
 
  - backticks   
 
 ```
-   ///lets u put things in multiple lines
+///lets u put things in multiple lines
                `
                   <p>i dont care about
                   leaving blank space
