@@ -44,7 +44,7 @@ npm start - to run server
 - targeting es5 (what most browsers support) . **note** es5 was causing the problem -es6 now.
 - systemjs as module handler
 
-### exclude patterns - sublime
+### exclude patterns - sublime &nbsp; :book:
 
 ```
       "file_exclude_patterns":
