@@ -25,7 +25,12 @@ System.register(['@angular/core'], function(exports_1, context_1) {
                 core_1.Component({
                     //app tag
                     selector: 'app',
-                    template: '<h1>Artist Directory</h1>'
+                    template: `
+              <div class="card search"> 
+              <h1 class="search-headline">Artist Directory</h1>
+              <label class="search-label">search</label>
+              </div><!-- card search -->
+             `
                 }), 
                 __metadata('design:paramtypes', [])
             ], AppComponent);
