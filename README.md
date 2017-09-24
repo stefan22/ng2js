@@ -45,7 +45,7 @@ npm start - to run server
 - systemjs as module handler
 
 
-### es6 i like  &nbsp; :fire:
+### es6 i like  
 
  - backticks   
 
